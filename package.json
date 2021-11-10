@@ -1,0 +1,22 @@
+{
+  "name": "example-expressjs",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <a href=\"https://koyeb.com\">     <img src=\"https://www.koyeb.com/static/images/icons/koyeb.svg\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>   <h3 align=\"center\">Koyeb Serverless Platform</h3>   <p align=\"center\">     Deploy a _FIXME_APP_TYPE_ application on Koyeb     <br />     <a href=\"https://koyeb.com\">Learn more about Koyeb</a>     ·     <a href=\"https://koyeb.com/docs\">Explore the documentation</a>     ·     <a href=\"https://koyeb.com/tutorials\">Discover our tutorials</a>   </p> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koyeb/example-expressjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koyeb/example-expressjs/issues"
+  },
+  "homepage": "https://github.com/koyeb/example-expressjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
