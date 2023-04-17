@@ -1,3 +1,5 @@
+[![example-expressjs](https://github.com/koyeb/example-expressjs/actions/workflows/deploy.yaml/badge.svg)](https://github.com/koyeb/example-expressjs/actions)
+
 <div align="center">
   <a href="https://koyeb.com">
     <img src="https://www.koyeb.com/static/images/icons/koyeb.svg" alt="Logo" width="80" height="80">
