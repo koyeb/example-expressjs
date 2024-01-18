@@ -19,10 +19,9 @@
 
 ## About Koyeb and the Node Express example application
 
-Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, or infrastructure management.
-This repository contains a Node Express application you can deploy on the Koyeb serverless platform for testing.
+Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, or infrastructure management.  This repository contains a Node Express application you can deploy on the Koyeb serverless platform for testing.
 
-This example application is designed to show how a Node Express application can be deployed on Koyeb.
+This example application is designed to show how a Node Express application can be deployed on Koyeb.  You can follow the associated [deploy guide](https://www.koyeb.com/docs/deploy/express) to learn more about the application and how to extend it.
 
 ## Getting Started
 
@@ -36,7 +35,7 @@ You need a Koyeb account to successfully deploy and run this application. If you
 
 The fastest way to deploy the Node Express application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/example-expressjs&branch=main&run_command=node%20app.js&name=express-on-koyeb)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/example-expressjs&branch=main&name=express-on-koyeb)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application.
 
@@ -46,18 +45,18 @@ _To modify this application example, you will need to fork this repository. Chec
 
 If you want to customize and enhance this application, you need to fork this repository.
 
-If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.
-Alternatively, you can manually create the application as described below.
+If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.  Alternatively, you can manually create the application as described below.
 
 On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** button to go to the App creation page.
 
-1. Select `GitHub` as the deployment method to use
-2. In the repositories list, select the repository you just forked
-3. Specify the branch to deploy, in this case `main`
-4. To let Koyeb know how to launch the application, add `node app.js` as the run command
-5. Then, give your App a name, i.e `express-on-koyeb`, and click **Create App.**
+1. Select `GitHub` as the deployment method to use.
+2. In the repositories list, select the repository you just forked.
+3. Specify the branch to deploy, in this case `main`.
+4. Set the name for the Service and App.  For example, `express-on-koyeb`.
+5. Choose either the Buildpack or Docker builder.  This repository can be built using buildpacks or a Dockerfile.
+6. Click **Deploy**.
 
-You land on the deployment page where you can follow the build of your Node Express application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
+You will be taken to the deployment page where you can follow the build of your Express application. Once the build is completed, your application will be deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
 
 ## Contributing
 
