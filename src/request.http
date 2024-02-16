@@ -1,0 +1,62 @@
+###
+GET http://localhost:3000/languages/ HTTP/1.1
+
+###
+GET http://localhost:3000/languages/getLastId HTTP/1.1
+
+###
+POST http://localhost:3000/companies/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "10",
+    "name": "sssss"
+}
+
+### 
+PUT http://localhost:3000/api/4 HTTP/1.1
+Content-Type: application/json
+{
+    "code": "eY",
+    "name": "EY"
+}
+
+###
+GET https://localhost:3000/challengess/getchallengeidbytextid/1 HTTP/1.1
+
+###
+DELETE http://localhost:3000/companies/delete/3 HTTP/1.1
+Content-Type: application/json
+
+#reto_image -------------
+###
+POST http://localhost:3000/reto_image/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "265",
+    "reto_id": "1",
+    "image_id": "1",
+    "isCorrect": "1"
+}
+
+###
+DELETE http://localhost:3000/reto_image/delete/265 HTTP/1.1
+Content-Type: application/json
+
+#images -------------
+###
+POST http://localhost:3000/images/add HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "265",
+    "ImagenPath": "2CH_13"
+}
+
+###
+GET http://localhost:3000/reto_image/reto_image/3 HTTP/1.1
+
+###
+GET http://localhost:3000/texts/getLastId HTTP/1.1
+
