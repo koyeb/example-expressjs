@@ -47,14 +47,13 @@ If you want to customize and enhance this application, you need to fork this rep
 
 If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.  Alternatively, you can manually create the application as described below.
 
-On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** button to go to the App creation page.
+On the [Koyeb Control Panel](//app.koyeb.com/apps), on the **Overview** tab, click the **Create Web Service** button to begin.
 
-1. Select `GitHub` as the deployment method to use.
+1. Select **GitHub** as the deployment method.
 2. In the repositories list, select the repository you just forked.
-3. Specify the branch to deploy, in this case `main`.
-4. Set the name for the Service and App.  For example, `express-on-koyeb`.
-5. Choose either the Buildpack or Docker builder.  This repository can be built using buildpacks or a Dockerfile.
-6. Click **Deploy**.
+3. In the **Builder** section, choose the builder you wish to use.  This repository can be built using buildpacks or a Dockerfile.
+4. Choose a name for your App and Service.  For example, `express-on-koyeb`.
+5. Click **Deploy**.
 
 You will be taken to the deployment page where you can follow the build of your Express application. Once the build is completed, your application will be deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
 
